@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> <!-- Link para o arquivo CSS -->
+    <title>Tédio - Encontre o que Fazer</title>
+</head>
+<body>
+    <div class="background-gradient" id="gradient"></div>
+
+    <div class="main-container">
+        <div class="title-container">
+            <h1>TÉDIO</h1>
+        </div>
+
+        <div class="container">
+            <div class="filters-container">
+                <div class="filter-row">
+                    <select id="effort">
+                        <option value="" disabled selected>Grau de esforço</option>
+                        <option value="baixo">Baixo</option>
+                        <option value="médio">Médio</option>
+                        <option value="alto">Alto</option>
+                    </select>
+
+                    <select id="company">
+                        <option value="" disabled selected>Companhia</option>
+                        <option value="sozinho">Sozinho</option>
+                        <option value="grupo">Em grupo</option>
+                    </select>
+
+                    <select id="category">
+                        <option value="" disabled selected>Categoria</option>
+                        <option value="criativa">Criativa</option>
+                        <option value="relaxante">Relaxante</option>
+                        <option value="divertido">Divertido</option>
+                        <option value="educacional">Educacional</option>
+                        <option value="produtiva">Produtiva</option>
+                    </select>
+                </div>
+
+                <button id="new-activity-btn">Acabe com o meu tédio!</button>
+
+                <div class="info-container">
+                    <img src="img/logo alura.png" width="45px"> 
+                    <img src="img/logo gemini.png" width="60px"> 
+                    <p class="info-paragraph">Este projeto foi criado para participar do <strong>concurso de desenvolvimento</strong> realizado pela Alura em parceria com o Google. O concurso incentiva a criatividade e inovação, permitindo aos participantes explorar o aprendizado prático em um ambiente desafiador.</p>
+                </div>
+            </div>
+
+            <div class="results-container" id="results-container">
+                <div class="card" id="description-card">
+                    <h3>Encontre algo interessante para fazer</h3>
+                    <p>Aqui você pode encontrar atividades para passar o tempo de acordo com suas preferências e grau de esforço.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="position: fixed; bottom: 10px; right: 10px; color: #bbb; font-size: 0.7rem;">
+        <p>Criado com ❤️ por Flávia Machado | 2024</p>
+    </footer>
+    
+    <script src="js/script.js"></script> <!-- Link para o JavaScript externo -->
+</body>
+</html>
