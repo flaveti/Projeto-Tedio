@@ -42,7 +42,7 @@ body {
 }
 
 h1 {
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Arial Black', helvetica, sans-serif;
     font-size: 8rem;
     color: #fff;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
@@ -161,6 +161,9 @@ button:hover {
     h1 {
         font-size: 5rem;
         margin-bottom: 30px;
+        font-family: -apple-system, BlinkMacSystemFont,"San Francisco", "Roboto", Arial, sans-serif;
+        font-weight: 900; /* Para garantir que Black seja usado */
+
     }
 
     /* Ajustar os campos de pesquisa no mobile */
