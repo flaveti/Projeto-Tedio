@@ -1,3 +1,5 @@
+// Array de atividades com diferentes categorias, companhias e graus de esforço
+
 const activities = [
     // Criativa
 { title: "Autorretrato com estilo", description: "Desenhe um autorretrato trazendo sua identidade única", category: "criativa", effort: "baixo", company: "sozinho" },

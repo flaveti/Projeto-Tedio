@@ -1,9 +1,11 @@
+/* Configurações gerais de espaçamento e box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos gerais do corpo da página */
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -16,6 +18,7 @@ body {
 
 }
 
+/* Gradiente dinâmico no fundo, que segue o movimento do mouse */
 .background-gradient {
     position: fixed;
     top: 0;
@@ -27,6 +30,7 @@ body {
     background-color: #1a1a1a;
 }
 
+/* Container principal que organiza o conteúdo */
 .main-container {
     width: 100%;
     max-width: 1200px;
@@ -41,6 +45,7 @@ body {
     margin-bottom: -50px;
 }
 
+/* Estilo do título principal da página */
 h1 {
     font-family: 'Arial Black', helvetica, sans-serif;
     font-size: 8rem;
@@ -49,6 +54,7 @@ h1 {
     width: 100%;
 }
 
+/* Estilo geral do container dos filtros e resultados */
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,6 +63,7 @@ h1 {
     border-radius: 12px;
 }
 
+/* Estilos para o container dos filtros */
 .filters-container {
     background-color: #1f1f1f;
     padding: 30px;
@@ -70,11 +77,13 @@ h1 {
     border-radius: 12px;
 }
 
+/* Estilos para as linhas dos filtros */
 .filter-row {
     display: flex;
     gap: 10px;
 }
 
+/* Estilos dos campos de seleção */
 select {
     width: 100%;
     padding: 10px;
@@ -85,6 +94,7 @@ select {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Estilos do botão */
 button {
     background-color: #e5012b;
     color: white;
@@ -98,10 +108,12 @@ button {
     width: 100%;
 }
 
+/* Efeito hover no botão */
 button:hover {
     background-color: hsl(349, 100%, 50%);
 }
 
+/* Container dos resultados */
 .results-container {
     background-color: #333;
     padding: 20px;
@@ -109,10 +121,12 @@ button:hover {
     width: 100%;
 }
 
+/* Efeito hover na caixa de resultados */
 .results-container:hover {
-    transform: scale(1.02);
+    transform: scale(1.02); /* Leve aumento ao passar o mouse */
 }
 
+/* Estilo dos cards de atividades */
 .card {
     background-color: #333;
     padding: 20px;
@@ -148,6 +162,7 @@ button:hover {
     margin-top: 10px;
 }
 
+/* Estilos para dispositivos móveis (telas menores) */
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;

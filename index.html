@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"> <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="css/style.css"> 
     <title>Tédio - Encontre o que Fazer</title>
 </head>
 <body>
-    <div class="background-gradient" id="gradient"></div>
 
+    <!-- Background dinâmico que segue o movimento do mouse -->
+    <div class="background-gradient" id="gradient"></div>
+    
+    <!-- Container principal que agrupa título, filtros e resultados -->
     <div class="main-container">
+
+        <!-- Título da página -->
         <div class="title-container">
             <h1>TÉDIO</h1>
         </div>
 
+        <!-- Seção de filtros e resultados -->
         <div class="container">
+
+            <!-- Filtros de atividade -->
             <div class="filters-container">
                 <div class="filter-row">
                     <select id="effort">
@@ -42,8 +50,10 @@
                     </select>
                 </div>
 
+                 <!-- Botão para gerar nova atividade -->
                 <button id="new-activity-btn">Acabe com o meu tédio!</button>
-
+                
+                <!-- Informações sobre o projeto -->
                 <div class="info-container">
                     <img src="img/logo alura.png" width="45px"> 
                     <img src="img/logo gemini.png" width="60px"> 
@@ -51,6 +61,7 @@
                 </div>
             </div>
 
+            <!-- Seção de resultados onde as atividades são exibidas -->
             <div class="results-container" id="results-container">
                 <div class="card" id="description-card">
                     <h3>Encontre algo para fazer</h3>
@@ -59,11 +70,13 @@
             </div>
         </div>
     </div>
-
+   
+    <!-- Rodapé com informações do autor -->
     <footer style="position: fixed; bottom: 10px; right: 10px; color: #bbb; font-size: 0.7rem;">
         <p>Criado com ❤️ por Flávia Machado | 2024</p>
     </footer>
-    
+
+    <!-- Link para o arquivo JavaScript externo -->
     <script src="js/script.js"></script> <!-- Link para o JavaScript externo -->
 </body>
 </html>
