@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 40px;
-    overflow: hidden;
+
 }
 
 .background-gradient {
@@ -125,7 +125,7 @@ button:hover {
 }
 
 .card h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -138,7 +138,7 @@ button:hover {
 
 .card .details {
     font-size: 0.9rem;
-    margin-top: 10px;
+    margin-top: 40px;
     color: #ddd;
 }
 
@@ -151,9 +151,34 @@ button:hover {
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
+        margin-bottom: 40px;
     }
 
     .filter-row {
         flex-direction: column;
     }
+
+    h1 {
+        font-size: 5rem;
+        margin-bottom: 30px;
+    }
+
+    /* Ajustar os campos de pesquisa no mobile */
+    select {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    /* Ajustar os botões no mobile */
+    button {
+        font-size: 1rem;
+        padding: 13px;
+    }
+
+    /* Ajustar o título dos cards no mobile */
+    .card h3 {
+        font-size: 2rem;
+    }
+
+    
 }
