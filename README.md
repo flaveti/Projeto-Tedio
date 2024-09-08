@@ -14,7 +14,7 @@ A ideia aqui não é te forçar a ser produtivo o tempo todo. Na verdade, a prop
 
 **Tédio** é uma plataforma interativa criada para oferecer sugestões personalizadas de atividades, ajudando as pessoas a utilizarem melhor seu tempo quando o tédio aparece. O projeto visa ser uma alternativa ao uso excessivo de redes sociais, sugerindo atividades que possam criar memórias e experiências significativas, seja sozinho ou acompanhado.
 
-Desenvolvido durante a **Imersão Dev da Alura em parceria com o Google Gemini 2024**, este projeto utiliza recursos ensinados durante o curso, bem como pesquisas filtradas e personalizadas. Além disso, para garantir a melhor experiência, foram utilizadas **IA do Google Gemini** e outras ferramentas de IA, otimizando as sugestões de atividades.
+Desenvolvido durante a **Imersão Dev da Alura em parceria com o Google Gemini 2024**, este projeto utiliza recursos ensinados durante o curso, bem como pesquisas filtradas e personalizadas. Além disso, para facilitar o desenvolvimento, utilizei a **IA do Google Gemini** e outras ferramentas de IA como suporte na construção e planejamento da plataforma.
 
 
 ---
@@ -47,8 +47,7 @@ Acesse o projeto diretamente neste link:
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Google Gemini AI**
-- **GitHub Pages** para hospedagem
+
 
 ---
 
